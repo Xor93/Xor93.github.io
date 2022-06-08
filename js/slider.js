@@ -18,16 +18,16 @@
 
 
 $(document).ready(function () {
-var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-if (isIOS) {
-  console.log('This is a IOS device');
-} else {
-  console.log('This is Not a IOS device');
-}
-    
-
-    
-
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    let sBgFix = $('.sectBg');
+    let bg = $('.bg');
+    if (isIOS) {
+        bg.addClass("bg-scroll");
+        sBgFix.addClass("h100-scroll");
+    } else {
+        bg.addClass("bg-fixed");
+        sBgFix.addClass("h100-fixed");
+    }
     if ($(window).width() > 1024) {
 
         let menu = $('#menu_wrapper');
