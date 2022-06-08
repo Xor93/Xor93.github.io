@@ -1,22 +1,3 @@
-// var swiper = new Swiper('.swiper', {
-//     direction: 'horizontal',
-//     loop: true,
-//     parallax: true,
-//     mousewheel: false,
-//     speed: 600,
-//     effect: 'fade',
-//     autoplay: {
-//         delay: 3000,
-//     }
-// })
-
-// $(document).scroll(function () {
-//     $('.swiper-slide-active').css('background-position', '0px ' + $(document).scrollTop() + 'px');
-// });
-
-
-
-
 $(document).ready(function () {
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     let sBgFix = $('.sectBg');
