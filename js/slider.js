@@ -49,9 +49,9 @@ $(document).ready(function () {
     });
 
     var images = Array(
-        "/img/4.jpg",
-        "/img/1.jpg",
-        "/img/5.jpg");
+        "/img/4.webp",
+        "/img/1.webp",
+        "/img/5.webp");
     var currimg = 0;
 
 
